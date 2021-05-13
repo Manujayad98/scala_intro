@@ -11,6 +11,8 @@ object scala_intro extends App{
       x*(24.95*60)/100+3
     }else{  
       x*(24.95*60)/100+3+(x-50)*0.75;
+    }
+  }
   println(cost(60));
 
 }    
