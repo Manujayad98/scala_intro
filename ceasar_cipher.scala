@@ -1,7 +1,7 @@
 import scala.io.StdIn;
 object ceasar_cipher{
 	def main(args:Array[String]){
-		val alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ $"
+		val alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 		val key=3
 		val s=readLine("Enter the the word(plain text) to decrypt or encrypt:")
 		println("1.Encrypt\n2.Decrypt\nEnter the choice :")
